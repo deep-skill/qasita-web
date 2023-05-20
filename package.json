@@ -2,16 +2,21 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.1.0",
-    "gulp-sass": "^2.2.0"
+    "gulp-sass": "^2.2.0",
+    "bootstrap": "v4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.9"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "6.17.1",
+    "npm": "3.10.10"
   },
   "homepage": "http://www.5studios.net",
   "name": "App5",
   "private": true,
   "scripts": {
-    "build": "gulp scss",
+    "build": "gulp sass",
     "test": "gulp scss"
   },
   "version": "1.0.0"

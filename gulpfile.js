@@ -5,14 +5,14 @@
  
 	gulp.task('sass', function () {
 		return gulp
-			.src('../sass/*.scss')
+			.src('sass/*.scss')
 			.pipe(sass({
-				includePaths: ['./bower_components']
+				includePaths: ['./node_modules']
 			}))
 			.pipe(autoprefixer({
 				browsers: ['last 2 version', '> 5%']
 			}))
-			.pipe(gulp.dest('./css'));
+			.pipe(gulp.dest('public/css'));
 	});
 	
 	gulp.task('default', ['scss']);
