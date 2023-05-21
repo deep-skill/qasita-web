@@ -2221,7 +2221,7 @@ section, .section {
   .header.hd-2 {
     background-image: url("../img/background/hd-2.jpg"); }
   .header.hd-3 {
-    background-image: url("../img/background/hd-3.jpg"); }
+    background-image: url("../img/background/hd-3.png"); }
   @media (min-width: 768px) {
     .header.hd-4 .mockup {
       max-width: 50%;
