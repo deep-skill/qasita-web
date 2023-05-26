@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
-    <title>Alba - Premium product showcase</title>
+    <title>Qasita - construcciones y remodelaciones</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,7 +34,7 @@
 
 <div class="page-loader d-flex align-items-center justify-content-center">
     <div class="container">
-        <img class="logo fading-logo" src="img/logo.png" alt="Alba" />
+        <img class="logo fading-logo" src="img/logo.png" alt="QAsita" />
     </div>
 </div>
 
@@ -49,23 +49,29 @@
         <span class="icon-bar"></span>
     </button>
     <a href="#main" class="navbar-brand">
-        <img src="img/logo.png" alt="Alba Template" class="logo">
+        <img src="img/logo.png" alt="QAsita" class="logo">
     </a>
 
     <div class="collapse navbar-collapse ml-auto" id="main-navbar">
         <div class="sidebar-brand">
             <a href="#main">
-                <img src="img/logo.png" alt="Alba Template" class="logo">
+                <img src="img/logo.png" alt="QAsita" class="logo">
             </a>
         </div>
 
         <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="demo-1.html"><i class="fa-asterisk"></i>Demo 1</a></li>
-            <li class="nav-item"><a class="nav-link" href="demo-2.html"><i class="fa-cogs"></i>Demo 2</a></li>
-            <li class="nav-item"><a class="nav-link" href="demo-3.html"><i class="fa-cogs"></i>Demo 3</a></li>
-            <li class="nav-item"><a class="nav-link" href="demo-4.html"><i class="fa-cogs"></i>Demo 4</a></li>
-            <li class="nav-item"><a class="nav-link" href="pricing.html"><i class="fa-mobile"></i>Pricing</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa-cubes"></i>Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-asterisk"></i>Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa-cubes"></i>Contacto</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="blog-menu" data-toggle="dropdown">
+                    Registro
+                </a>
+                <div class="dropdown-menu" aria-labelledby="blog-menu">
+                    <a class="dropdown-item" href="#">Clientes</a>
+                    <a class="dropdown-item" href="#">Profesionales</a>
+                </div>
+            </li>
+	    <!--
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="blog-menu" data-toggle="dropdown">
                     Blog
@@ -88,48 +94,47 @@
                     <a class="dropdown-item" href="blog-single-right-column.html">Right column</a>
                 </div>
             </li>
+            -->
         </ul>
     </div>
 </div>
 
 </nav>
 
-
-
 <main>
     
     <section class="section contact">
     <div class="container">
         <div class="section-heading">
-            <h2>Get in touch</h2>
-            <p class="lead">We are here to help, drop us a line if you have any question</p>
+            <h2>Estamos a un click de distancia</h2>
+            <p class="lead">Siempre  a tu disposición, escríbenos cuando lo necesites.</p>
         </div>
 
         <form action="srv/contact.php" method="post" class="form form-contact" name="form-contact" response-message-animation="slide-in-up">
     <div class="form-group">
-        <label for="contact_fullname">Full name</label>
-        <input type="text" name="Contact[fullName]" id="contact_fullname" class="form-control bg-1" placeholder="Enter your full Name" required>
+        <label for="contact_fullname">Nombre y Apellidos</label>
+        <input type="text" name="Contact[fullName]" id="contact_fullname" class="form-control bg-1" placeholder="Ingresa tu nombre" required>
     </div>
 
     <div class="form-group">
-        <label for="contact_email">Email address</label>
-        <input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Valid Email" required>
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <label for="contact_email">Email</label>
+        <input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email válido" required>
+        <small id="emailHelp" class="form-text text-muted">No compartiremos tu email con nadie..</small>
     </div>
 
     <div class="form-group">
-        <label for="contact_email">Subject</label>
-        <input type="text" name="Contact[subject]" id="contact_subject" class="form-control bg-1" placeholder="Subject" required>
+        <label for="contact_email">Asunto</label>
+        <input type="text" name="Contact[subject]" id="contact_subject" class="form-control bg-1" placeholder="Asunto" required>
     </div>
 
     <div class="form-group">
-        <label for="contact_email">Message</label>
-        <textarea name="Contact[message]" id="contact_message" class="form-control bg-1" placeholder="What do you want to let us know?" rows="8" required></textarea>
+        <label for="contact_email">Mensaje</label>
+        <textarea name="Contact[message]" id="contact_message" class="form-control bg-1" placeholder="Déjanos conocer tus comentarios o consultas." rows="8" required></textarea>
     </div>
 
     <div class="form-group">
-        <button id="contact-submit" data-loading-text="Sending..." name="submit" type="submit" class="btn btn-primary px-5 py-3">
-            Send Message
+        <button id="contact-submit" data-loading-text="Enviando..." name="submit" type="submit" class="btn btn-primary px-5 py-3">
+            Enviar
         </button>
     </div>
 </form>
@@ -160,27 +165,27 @@
 
                 <img src="img/logo.png" class="icon ml-0" alt="">
 
-                <p>Meet <span class="bold">Alba</span>, a carefully crafted and powerful HTML5 Template, it's perfect to showcase any kind of software or startup in a beautiful way.</p>
+                <p><b>QAsita</b> es una plataforma digital de servicios de construcción y remodelación, creada para mejorar la calidad, confort y seguridad de viviendas y locales en latinoamérica.</p>
             </div>
 
             <div class="col-12 col-md-2">
-                <h4 class="color-1"><span class="bold">Follow</span> Us</h4>
+                <h4 class="color-1"><span class="bold">Síguenos</span></h4>
 
                 <nav class="nav flex-column mt-3">
                     <a class="nav-link pl-0" href="#"><i class="fa-facebook"></i> Facebook</a>
-                    <a class="nav-link pl-0" href="#"><i class="fa-twitter"></i> Twitter</a>
-                    <a class="nav-link pl-0" href="#"><i class="fa-behance"></i> Behance</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-linkedin"></i> Linkedin</a>
+                    <a class="nav-link pl-0" href="#"><i class="fa-youtube"></i> Youtube</a>
                     <a class="nav-link pl-0" href="#"><i class="fa-instagram"></i> Instagram</a>
                 </nav>
             </div>
 
             <div class="col-12 col-md-4">
-                <h4 class="color-1">Stay<span class="bold"> in touch</span></h4>
+                <h4 class="color-1">Únete a nuestra <span class="bold">comunidad</span></h4>
 
-                <p>By registering with us, you will receive right in your inbox all new features and updates.<span class="bold">Register now!</span></p>
+                <p>Regístrate y acelera tus solicitudes de servicios, además de acceder a <span class="bold">novedades y ofertas exclusivas.</span></p>
 
                 <button class="btn btn-rounded btn-outline-2">
-                    Register Now
+                    Registro de clientes
                 </button>
             </div>
         </div>
@@ -188,7 +193,7 @@
         <hr class="mt-5 bg-2 border-0">
         <div class="row footer-bottom small">
             <div class="col">
-                <p class="mt-2 mb-0">© 2017 5studios. All Rights Reserved</p>
+                <p class="mt-2 mb-0">© 2023 Deep Skill Software Factory. All Rights Reserved</p>
             </div>
 
             <div class="col-sm-6 col-md-auto">
