@@ -1,10 +1,3 @@
-/*!
- Alba - HTML Startup Template, v1.0
- Main JS file
- Copyright © 2017 5Studios.net
- http://5studios.net
- */
-
 (function() {
     'use strict';
 
@@ -37,6 +30,20 @@
 // Place any code in here.
 $(function() {
     'use strict';
+
+    /**
+     * Whatsapp Button
+     **/
+    $("#whatsapp_button").click(function() {
+	window.open('https://wa.me/message/ONUJ4RGKUV5UK1');
+    })
+
+    /**
+     * Register User Button
+     **/
+    $("#register_user_button").click(function() {
+	window.open('https://forms.gle/9gG8MenkLTvJQEEHA');
+    })
 
     /**
      * STICKY MENU

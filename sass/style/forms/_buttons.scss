@@ -9,6 +9,7 @@
     font-weight: $btn-font-weight;
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.26);
     display: block;
+    cursor: pointer;
 
     &:not(.btn-lg):not(.btn-sm) {
         font-size: $btn-font-size;
