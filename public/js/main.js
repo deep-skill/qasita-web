@@ -35,7 +35,7 @@ $(function() {
      * Whatsapp Button
      **/
     $("#whatsapp_button").click(function() {
-	window.open('https://wa.me/message/ONUJ4RGKUV5UK1');
+	window.open('https://wa.me/message/4J42CIWURBFSA1');
     })
 
     /**
