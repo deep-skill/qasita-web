@@ -42,7 +42,7 @@ $(function() {
      * Register User Button
      **/
     $("#register_user_button").click(function() {
-	window.open('https://forms.gle/9gG8MenkLTvJQEEHA');
+	window.open('https://forms.gle/SjbQgf79ibY7xw68A');
     })
 
     /**
